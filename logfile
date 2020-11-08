@@ -50,7 +50,7 @@ int main() {
       char ch;
       for(int i = 0; msg[i] != '\0'; ++i) {
          ch = msg[i];
-         //matershut
+         //çàøèôðîâàòü ñòðî÷íûå áóêâû
          if (ch >= 'a' && ch <= 'z'){
             ch = ch + key;
             if (ch > 'z') {
@@ -58,7 +58,7 @@ int main() {
             }
             msg[i] = ch;
          }
-         //matershut
+         //çàøèôðîâàòü çàãëàâíûìè áóêâàìè
          else if (ch >= 'A' && ch <= 'Z'){
             ch = ch + key;
             if (ch > 'Z'){
